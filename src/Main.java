@@ -1,5 +1,7 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
         Produto p1 = new Produto("Xbox series X",4500,180);
 
@@ -20,17 +22,10 @@ public class Main {
         System.out.println("A nova quantidade é: "+p1.getQuantidade() +" unidades");
 
 
-
+        //COMPRA DE 9 PRODUTOS
         System.out.println("\nApós um cliente comprar 9 produtos: ");
         p1.comprarProduto(9);
         System.out.println("A nova quantidade é: "+ p1.getQuantidade()+" unidades");
-
-
-
-
-
-
-
 
 
 

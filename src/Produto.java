@@ -16,7 +16,7 @@ public class Produto {
     }
 
     //set nome
-    void setNome(){
+    void setNome(String nome){
         this.nome = nome;
     }
 
@@ -26,7 +26,7 @@ public class Produto {
     }
 
     //set preço
-    void setPreco(){
+    void setPreco(int preco){
         this.preco = preco;
     }
 
@@ -37,7 +37,7 @@ public class Produto {
 
     //set quantidade
 
-    void setQuantidade(){
+    void setQuantidade(int quantidade){
         this.quantidade = quantidade;
     }
 
